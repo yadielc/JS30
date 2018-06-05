@@ -1,6 +1,6 @@
 <strong>JS30: #JavaScript30 Challenge Follow Along</strong>
 
-This project is where I keep all the code I wrote as part of the JavaScript30 challenge by Wes Bos.
+This project is where I keep all the code I wrote as part of the JavaScript30 challenge by <a href="https://wesbos.com/">Wes Bos</a>.
 
 I have divided the project in a folder for each day.
 
