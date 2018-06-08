@@ -43,15 +43,21 @@
     // 2. Give us an array of the inventors' first and last names
 
     const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
-    console.log(fullNames);
+    // console.log(fullNames);
 
     // My practice
     // Give us an array of lastNames only
     const lastNames = inventors.map(inventor => `${inventor.last}`);
-    console.log(lastNames);
-    
+    // console.log(lastNames);
+
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+
+    //short version
+    const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+    console.table(ordered);
+
+
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
