@@ -55,8 +55,15 @@
 
     //short version
     const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
-    console.table(ordered);
+    // console.table(ordered);
 
+    //My practice
+    const orderedByDeath = inventors.sort((a,b) => a.passed > b.passed ? 1 : -1);
+    console.table(orderedByDeath);
+
+    //Order by last name 
+    const orderByLastName = inventors.sort((a,b) => a.last > a.last ? 1 : -1);
+    console.table(orderByLastName);
 
 
     // Array.prototype.reduce()
