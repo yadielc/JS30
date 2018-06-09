@@ -44,7 +44,7 @@
       background-position:center;
       flex: 1;
       justify-content: center;
-    /*  border: 1px solid red;*/ 
+    /*  border: 1px solid red;*/
       align-items: center;
       display: flex;
       flex-direction: column;
@@ -129,6 +129,14 @@
   </div>
 
   <script>
+  const panels = document.querySelectorAll('.panel');
+
+  function toggleOpen () {
+    this.classList.toggle('open');
+  }
+
+  panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+  panels.forEach(panel => panel.addEventListener('transitioned', toggleActive)); 
 
   </script>
 
