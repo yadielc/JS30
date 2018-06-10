@@ -36,6 +36,7 @@ fetch(endpoint)
   .then(blob => blob.json())
   .then(data => cities.push(...data));
 
+// get matches according to what the user typed using regular expressions
 function findMatches(wordToMatch, cities) {
   return cities.filter(place => {
     // checking if the city matches
@@ -48,6 +49,7 @@ function findMatches(wordToMatch, cities) {
      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
    }
 
+  // display the matches from user input
    function displayMatches() {
      const matchArray = findMatches(this.value, cities);
      const html = matchArray.map(place => {
