@@ -19,7 +19,7 @@ const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb
 
 const cities = [];
 
-
+// fetching the data from the API 
 fetch(endpoint)
   .then(blob => blob.json())
   .then(data => cities.push(...data));
