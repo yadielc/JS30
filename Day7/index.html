@@ -41,7 +41,7 @@
 
     // My practice, verify who is 19 year or older
     for (var i = 0; i < people.size; i++){
-      if ((newDate()).getFullYear() - people[i].year) >= 19){
+      if ((new Date()).getFullYear() - people[i].year) >= 19){
         console.log(people[i]);
       }
     }
