@@ -6,5 +6,20 @@ I have divided the project in a folder for each day.
 
 Day 1 - JavaScript Drum Kit
 
+Day 2 - JS Clock
+
+Day 3 - Update CSS Variables with JS
+
+Day 4 -
+
+Day 5 -
+
+Day 6 -
+
+Day 7 -
+
+Day 8 -
+
+Day 9 -
 
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
