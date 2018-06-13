@@ -10,16 +10,16 @@ Day 2 - JS Clock
 
 Day 3 - Update CSS Variables with JS
 
-Day 4 -
+Day 4 - Array Cardio Day 1
 
-Day 5 -
+Day 5 - Flex Panels
 
-Day 6 -
+Day 6 - Ajax Type Ahead
 
-Day 7 -
+Day 7 - Array Cardio Day 2
 
-Day 8 -
+Day 8 - Playing with HTML canvas
 
-Day 9 -
+Day 9 - Console tricks
 
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
