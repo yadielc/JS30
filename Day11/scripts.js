@@ -23,6 +23,10 @@ function skip() {
  video.currentTime += parseFloat(this.dataset.skip);
 }
 
+function handleRangeUpdate(){
+
+}
+
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
