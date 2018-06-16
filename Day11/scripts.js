@@ -19,6 +19,10 @@ function updateButton() {
   toggle.textContent = icon;
 }
 
+function skip() {
+
+}
+
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
