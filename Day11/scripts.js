@@ -20,7 +20,7 @@ function updateButton() {
 }
 
 function skip() {
-
+ video.currentTime += parseFloat(this.dataset.skip);
 }
 
 video.addEventListener('click', togglePlay);
