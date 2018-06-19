@@ -33,9 +33,11 @@
   function addItem(e){
    e.preventDefault();
    const item = {
-      text: 'Item Name',
+      text,
       done: false
-   }
+   };
+   this.reset();
+   
   }
 addItems.addEventListener('submit', addItem);
 </script>
