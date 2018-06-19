@@ -67,11 +67,12 @@
 
 addItems.addEventListener('submit', addItem);
 
+populateList(items, itemsList);
 const checkBoxes = document.querySelectorAll('input');
 
-checkBoxes.forEach(input => input.addEventListener('click', () => alert('hi'))); 
+checkBoxes.forEach(input => input.addEventListener('click', () => alert('hi')));
 
-populateList(items, itemsList);
+
 </script>
 
 
