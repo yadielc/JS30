@@ -44,10 +44,11 @@
     platesList.innerHTML = plates.map((plate, i) => { // map takes in raw - data, returns an array of some other data
     return `
      <li>
-       <label for="">${plate.text}</label> 
+       <input type="checkbox" data-index=${i} i="item${i}" checked /> 
+       <label for="">${plate.text}</label>
      </li>
      `;
-    });
+   }).join('');
 
   }
 addItems.addEventListener('submit', addItem);
