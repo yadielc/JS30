@@ -50,7 +50,9 @@ function shadow(e){
 
    }
 
-   const xWalk = (x/width * walk) - (walk/2); // offsetting 
+   const xWalk = Math.round((x/width * walk) - (walk/2)); // offsetting
+
+   text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`; 
 
 
 
