@@ -1,6 +1,5 @@
 <strong>Day16 - Mouse Shadow</strong>
 
-Description:<br>
 This small application allows the user to move the mouse and see how the colors of the background of the letters change.
 <br>
 
