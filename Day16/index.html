@@ -38,6 +38,7 @@
 <script>
 const hero = document.querySelector('.hero');
 const text = document.querySelector('.hero');
+const walk = 100;
 
 function shadow(e){
   const {offsetWidth: width, offsetHeight: height} = hero;
@@ -49,10 +50,14 @@ function shadow(e){
 
    }
 
+   const xWalk = (x/width * walk) - (walk/2); // offsetting 
+
+
 
 
 }
 
+hero.addEventListener('mousemove', shadow);
 
 </script>
 </body>
