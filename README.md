@@ -22,7 +22,7 @@ Day 8 - Playing with HTML canvas
 
 Day 9 - Console tricks
 
-Day 10 -
+Day 10 - Hold and Shift Checkboxes 
 
 Day 11 -
 
@@ -34,7 +34,7 @@ Day 14 -
 
 Day 15 -
 
-Day 16 - Mouse Over 
+Day 16 - Mouse Over
 
 Day 17 - Sorting An Array Of Bands
 
