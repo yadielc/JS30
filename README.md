@@ -36,6 +36,6 @@ Day 15 - Local Storage
 
 Day 16 - Mouse Over
 
-Day 17 - Sorting An Array Of Bands
+Day 17 - Sorting An Array Of Bands Without Articles 
 
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
