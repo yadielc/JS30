@@ -34,8 +34,8 @@ Day 14 -
 
 Day 15 -
 
-Day 16 -
+Day 16 - Mouse Over 
 
-Day 17 - Sorting An Array Of Bands 
+Day 17 - Sorting An Array Of Bands
 
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
