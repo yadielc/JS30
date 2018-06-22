@@ -30,9 +30,9 @@ Day 12 - Key Sequence Detection
 
 Day 13 - Slide In On Scroll
 
-Day 14 -
+Day 14 - JavaScript References vs Copying
 
-Day 15 -
+Day 15 - Local Storage
 
 Day 16 - Mouse Over
 
