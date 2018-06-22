@@ -22,4 +22,14 @@ Day 8 - Playing with HTML canvas
 
 Day 9 - Console tricks
 
+Day 10 -
+
+Day 11 -
+
+Day 12 -
+
+Day 13 -
+
+Day 14 - 
+
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
