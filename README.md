@@ -26,7 +26,7 @@ Day 10 - Hold and Shift Checkboxes
 
 Day 11 - Custom Video Player
 
-Day 12 -
+Day 12 - Key Sequence Detection 
 
 Day 13 -
 
