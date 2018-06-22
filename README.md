@@ -22,9 +22,9 @@ Day 8 - Playing with HTML canvas
 
 Day 9 - Console tricks
 
-Day 10 - Hold and Shift Checkboxes 
+Day 10 - Hold and Shift Checkboxes
 
-Day 11 -
+Day 11 - 
 
 Day 12 -
 
