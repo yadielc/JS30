@@ -24,7 +24,7 @@ Day 9 - Console tricks
 
 Day 10 - Hold and Shift Checkboxes
 
-Day 11 - 
+Day 11 - Custom Video Player
 
 Day 12 -
 
