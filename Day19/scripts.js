@@ -26,7 +26,8 @@ function paintToCanvas() {
     ctx.drawImage(video, 0, 0, width, height);
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
-    const pixels  = ctx.getImageData(0, 0, width, height); 
+    pixels = redEffect(pixels);
+    debugger;
     // mess with them
     // pixels = redEffect(pixels);
 
@@ -50,6 +51,15 @@ link.href = data;
 link.setAttribute('download', 'handsome');
 link.innerHTML = `<img src ="${data}" alt ="Handsome Man"/>`
 strip.insertBefore(link, strip.firstChild);
+
+}
+
+function redEffect(pixels){
+  for(let i = 0; i < pixels.length; i+=4){
+    pixels[i] // red
+    pixels[i + 1] // green
+    pixels[i + 2] // blue 
+  }
 
 }
 
