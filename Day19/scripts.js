@@ -41,8 +41,17 @@ function paintToCanvas() {
 function takePhoto() {
 snap.currentTime = 0;
 snap.play();
+
+// take data out of the canvas
+const data = canvas.toDataURL('images/jpeg');
+const link = document.createElement('a');
+link.href = data;
+link.setAttribute('download', 'handsome');
+link.textContent = 'Download Image';
+strip.insertBefore(link, strip.firstChild); 
+
 }
 
 getVideo();
 
-video.addEventListener('canplay', paintToCanvas, capture?: boolean)
+video.addEventListener('canplay', paintToCanvas);
