@@ -5,5 +5,13 @@ const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
 
 function getVideo() {
-  navigator.getUserMedia({video: true, audio:false}); // returns a promise  
+  navigator.getUserMedia({video: true, audio:false}) // returns a promise
+  .then (localMediaStream => {
+     console.log(localMediaStream);
+     video.src = window.URL.createObjectURL(localMediaStream);
+     video.play();  
+
+  });
 }
+
+getVideo();
