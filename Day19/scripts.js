@@ -26,6 +26,7 @@ function paintToCanvas() {
     ctx.drawImage(video, 0, 0, width, height);
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
+    const pixels  = ctx.getImageData(0, 0, width, height); 
     // mess with them
     // pixels = redEffect(pixels);
 
