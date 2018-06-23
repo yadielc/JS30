@@ -26,7 +26,7 @@ function paintToCanvas() {
     ctx.drawImage(video, 0, 0, width, height);
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
-    pixels = redEffect(pixels);
+//    pixels = redEffect(pixels);
     ctx.putImageData(pixels, 0, 0);
     debugger;
     // mess with them
@@ -72,8 +72,10 @@ function rgbSplit(pixels){
 
     pixels.data[i - 150] = pixels.data[i + 0];
     pixels.data[i + 100] = pixels.data[i + 1];
-    pixels.data[i - 150] = pixels.data[i + 2]; 
+    pixels.data[i - 150] = pixels.data[i + 2];
+
   }
+  return pixels; 
 }
 
 getVideo();
