@@ -27,6 +27,7 @@ function paintToCanvas() {
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
     pixels = redEffect(pixels);
+    ctx.putImageData(pixels, 0, 0);
     debugger;
     // mess with them
     // pixels = redEffect(pixels);
@@ -55,11 +56,13 @@ strip.insertBefore(link, strip.firstChild);
 }
 
 function redEffect(pixels){
-  for(let i = 0; i < pixels.length; i+=4){
-    pixels[i] // red
-    pixels[i + 1] // green
-    pixels[i + 2] // blue 
+  for(let i = 0; i < pixels.data.length; i+=4){
+    pixels.data[i] = pixels.data[i + 0] + 100;  // red
+    pixels.data[i + 1] = pixels.data[i + 1] - 50;  // green
+    pixels.data[i + 2] = pixels.data [i + 2] * 0.5;  // blue
   }
+
+  return pixels;
 
 }
 
