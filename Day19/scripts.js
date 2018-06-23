@@ -33,6 +33,7 @@ function paintToCanvas() {
     // pixels = redEffect(pixels);
 
     pixels = rgbSplit(pixels);
+    ctx.globalAlpha = 0.1; 
     // ctx.globalAlpha = 0.8;
 
     // pixels = greenScreen(pixels);
@@ -75,7 +76,7 @@ function rgbSplit(pixels){
     pixels.data[i - 150] = pixels.data[i + 2];
 
   }
-  return pixels; 
+  return pixels;
 }
 
 getVideo();
