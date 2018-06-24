@@ -14,16 +14,18 @@
 
 const recognition = new SpeechRecognition();
 recoginition.interimResults = true;
+recognition.lang = 'en-US';
 
 let p = document.createElement('p');
 const words = document.querySelector('.words');
 words.appendChild(p);
 
-recognition.addEventEventListener('results', e=> {
+recognition.addEventEventListener('result', e=> {
 
 
-}); 
+});
 
+recognition.start();
 
 </script>
 
