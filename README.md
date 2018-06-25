@@ -40,10 +40,10 @@ Day 17 - Sorting An Array Of Bands Without Articles
 
 Day 18 - Tally String Times with Reduce
 
-Day 19 - Unreal Webcam Fun 
+Day 19 - Unreal Webcam Fun
 
-Day 20 -
+Day 20 - Native Speech Recognition
 
-Day 21 -
+Day 21 - Geolocation based Speedometer and Compass 
 
 If you would like to enter the challenge and start following along as well, I invite you to do so at https://javascript30.com/
