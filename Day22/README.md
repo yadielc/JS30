@@ -1,1 +1,3 @@
-<strong>Day 22 - Follow Along Links</strong> 
+<strong>Day 22 - Follow Along Links</strong>
+
+Description:
