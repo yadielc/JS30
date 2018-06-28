@@ -46,9 +46,13 @@
       .join('');
     }
 
-    
-  speechSynthesis.addEventListener('voiceschanged', populateVoices);
+    function setVoice () {
 
+
+    }
+
+  speechSynthesis.addEventListener('voiceschanged', populateVoices);
+  voicesDropdown.addEventListener('change', setVoice);
 </script>
 
 </body>
