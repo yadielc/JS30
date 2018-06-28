@@ -40,9 +40,11 @@
   function populateVoices(){
 
     voices = this.getVoices();
-    const voiceOptions = voice.map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
-    .join('');
-  }
+    voicesDropdown.innerHTML = voices
+      .filter(voice => voice.lang.includes('en'))
+      .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
+      .join('');
+    }
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
 
 </script>
