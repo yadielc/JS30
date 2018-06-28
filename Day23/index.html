@@ -52,7 +52,8 @@
     }
 
     function toggle(){
-
+    speechSyntehsis.cancel();
+    speechSynthesis.speak(msg); 
     }
 
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
