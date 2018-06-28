@@ -23,6 +23,11 @@ body {
   transition: transform 0.5s;
 }
 
+body.fixed-nav .site-wrap {
+  transform: scale(1);
+}
+
+
 header {
   text-align: center;
   height:50vh;
@@ -39,11 +44,6 @@ h1 {
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2)
 }
 
-.fixed-nav {
-   position: fixed;
-   box-shadow: 0 5px rgba(0,0,0,0.1);
-}
-
 nav {
   background:black;
   top:0;
@@ -51,6 +51,11 @@ nav {
   transition:all 0.5s;
   position: relative;
   z-index: 1;
+}
+
+body.fixed-nav nav {
+  position: fixed;
+  box-shadow:0 5px 0 rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -72,17 +77,17 @@ li.logo {
   max-width:0;
   overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all 0.5s;
   font-weight: 600;
   font-size: 30px;
 }
 
-.fixed-nav li.logo {
-  max-width: 500px;
-  
-}
 li.logo a {
   color:black;
+}
+
+.fixed-nav li.logo {
+  max-width:500px;
 }
 
 nav a {
