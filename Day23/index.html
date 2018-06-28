@@ -54,14 +54,14 @@
     function toggle(){
     speechSyntehsis.cancel();
     if(startOver){
-       speechSynthesis.speak(msg); 
+       speechSynthesis.speak(msg);
     }
 
     }
 
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
   voicesDropdown.addEventListener('change', setVoice);
-
+  options.forEach(option => option.addEventListener('change', setOption));
 </script>
 
 </body>
