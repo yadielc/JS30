@@ -40,13 +40,21 @@
 <button></button>
 <script>
 
+const button = document.querySelector('button');
 const divs = document.querySelectorAll('div');
 function logText(e) {
-e.stopPropagation(); // stop bubbling event 
+e.stopPropagation(); // stop bubbling event
 }
 
 divs.forEach(div => div.addEventListener('click', logText, {
- capture: false
+ capture: false,
+ once: true
+}));
+
+div.removeEventListener('click', logText, {
+    capture: false,
+    once: true
+
 }));
 
 
