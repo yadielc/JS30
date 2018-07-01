@@ -43,6 +43,7 @@ let scrollLeft;
 
 slider.addEventListener('mousedown', () => {
   isDown = true;
+  slider.classList.add('active');
 
 });
 
@@ -56,6 +57,7 @@ slider.addEventListener('mouseup', () => {
 });
 
 slider.addEventListener('mousemove', () => {
+if(!isDown) return;
 
 
 });
