@@ -2,7 +2,7 @@
 
 Description:<br>
 
-Today we built a small application that allows the user to click a graphic and drag along side.
+Today we built an application that allows the user to click a graphic and drag along side.
 
 The concepts reviewed on this session were:
 
@@ -10,3 +10,5 @@ The concepts reviewed on this session were:
 2. Screen coordinate calculation
 3. Sliders
 4. JavaScript querySelector
+
+Here is a screenshot of the application at runtime:
