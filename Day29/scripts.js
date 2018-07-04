@@ -52,4 +52,7 @@ buttons.forEach(button => button.addEventListener('click',startTimer));
 document.customForm.addEventListener('submit', function(e)){
    e.preventDefault();
 
-}); 
+   const mins = this.minutes.value;
+   this.reset(); 
+
+});
