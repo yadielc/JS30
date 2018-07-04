@@ -44,3 +44,5 @@ function displayEndTime(timestamp) {
 
 
 }
+
+buttons.forEach(button => button.addEventListener('click',startTimer));
