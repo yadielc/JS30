@@ -5,9 +5,9 @@ function timer(seconds) {
    const then = now + seconds * 1000;
    setInterval(() => {
 
-     const secondsLeft = (then - Date.now())/ 1000;
+     const secondsLeft = Math.round((then - Date.now())/ 1000);
 
-   }, 1000); 
+   }, 1000);
 
  );
 
