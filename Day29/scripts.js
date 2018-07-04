@@ -49,3 +49,7 @@ function startTimer() {
   timer(seconds);
 }
 buttons.forEach(button => button.addEventListener('click',startTimer));
+document.customForm.addEventListener('submit', function(e)){
+   e.preventDefault();
+
+}); 
