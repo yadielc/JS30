@@ -6,7 +6,12 @@ function timer(seconds) {
    setInterval(() => {
 
      const secondsLeft = Math.round((then - Date.now())/ 1000);
+     if(secondsLeft < 0){
+      clearInterval(countdown);
+      return; 
 
+
+     }
    }, 1000);
 
  );
