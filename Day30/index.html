@@ -77,7 +77,7 @@ function peep() {
  }
 
    functon startGame () {
-     score = 0; 
+     score = 0;
       scoreBoard.textContent = 0;
       timeUp = false;
       peep();
@@ -86,6 +86,7 @@ function peep() {
 
    function bonk(e){
      if(!e.isTrusted) return; // cheater
+     score++; 
 
    }
 
