@@ -2,4 +2,4 @@
 
 Description:<br>
 
-Today we made
+Today we made made an application that simulated a whack a mole game. 
