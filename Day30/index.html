@@ -37,6 +37,19 @@
   const scoreBoard = document.querySelector('.score');
   const moles = document.querySelectorAll('.mole');
 
+  function randTime (min, max) {
+
+     return Math.random() * (max-min) + min;
+
+  }
+
+// get a random DOM element
+function randomHole(holes) {
+  const idx = Math.floor(Math.random() * holes.length);
+  const hole = holes[idx];
+
+}
+
 </script>
 </body>
 </html>
