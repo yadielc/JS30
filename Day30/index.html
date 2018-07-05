@@ -48,6 +48,8 @@
 function randomHole(holes) {
   const idx = Math.floor(Math.random() * holes.length);
   const hole = holes[idx];
+  const moles = document.querySelectorAll('.mole');
+  let lastHole; 
   if(hole == lastHole){
     return randomHole(holes);
 
@@ -63,7 +65,7 @@ function peep() {
    hole.classList.add('up');
    setTimeout(() => {
      hole.classList.remove('up');
-     peep(); 
+     peep();
 
    }, time);
 
