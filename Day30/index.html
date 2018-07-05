@@ -68,10 +68,16 @@ function peep() {
    hole.classList.add('up');
    setTimeout(() => {
      hole.classList.remove('up');
-     if(!timeUp) peep(); 
+     if(!timeUp) peep();
      peep();
 
    }, time);
+
+   functon startGame () {
+      scoreBoard.textContent = 0;
+      timeUp = false;
+      setTimeout(() => )
+   }
 
 }
 
