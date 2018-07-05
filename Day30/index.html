@@ -86,7 +86,9 @@ function peep() {
 
    function bonk(e){
      if(!e.isTrusted) return; // cheater
-     score++; 
+     score++;
+     this.classList.remove('up');
+     scoreBoard.textContent score; 
 
    }
 
